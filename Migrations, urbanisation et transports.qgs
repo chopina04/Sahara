@@ -7,26 +7,26 @@
     <customproperties/>
     <layer-tree-group expanded="0" checked="Qt::Checked" name="Urbanisation">
       <customproperties/>
-      <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="Urbanisation_OCDE_Sahara_Sahel_Ouest_de_l_Afrique20171231141458272" source="/home/chopina04/SIG_data/Terminale/Sahara/Urbanisation_OCDE_Sahara_Sahel_Ouest_de_l_Afrique.shp" name="Population urbaine en 2010 selon l'OCDE (en million d'habitants)">
+      <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="Urbanisation_OCDE_Sahara_Sahel_Ouest_de_l_Afrique20171231141458272" source="/home/chopina04/SIG_data/Terminale/Sahara/Sahara_Projet/Urbanisation_OCDE_Sahara_Sahel_Ouest_de_l_Afrique.shp" name="Population urbaine en 2010 selon l'OCDE (en million d'habitants)">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
     <layer-tree-group expanded="0" checked="Qt::Checked" name="Migrations">
       <customproperties/>
-      <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Afrique_Europe_Proche_Moyen_Orient_MissingMigrantsProject20171231144438447" source="/home/chopina04/SIG_data/Terminale/Sahara/Afrique_Europe_Proche_Moyen-Orient_MissingMigrantsProject.shp" name="Nombre de décès de migrants selon le Missing Migrants Project de l'Organisation Internationale des migrations (2017)">
+      <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Afrique_Europe_Proche_Moyen_Orient_MissingMigrantsProject20171231144438447" source="/home/chopina04/SIG_data/Terminale/Sahara/Sahara_Projet/Afrique_Europe_Proche_Moyen-Orient_MissingMigrantsProject.shp" name="Nombre de décès de migrants selon le Missing Migrants Project de l'Organisation Internationale des migrations (2017)">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
     <layer-tree-group expanded="0" checked="Qt::Checked" name="Réseau routier en 2007">
       <customproperties/>
-      <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="SAHARA_ROUTES_200720171227173651052" source="/home/chopina04/SIG_data/Terminale/Sahara/SAHARA_ROUTES_2007.shp" name="SAHARA_ROUTES_2007">
+      <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="Sahara_reseau_routier_200720171231153912573" source="/home/chopina04/SIG_data/Terminale/Sahara/Sahara_Projet/Sahara_reseau_routier_2007.shp" name="Sahara_reseau_routier_2007">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Monde_Sahara_Etats20171231143124989" source="/home/chopina04/SIG_data/Terminale/Sahara/Monde_Sahara_Etats.shp" name="Monde_Sahara_Etats">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Monde_Sahara_Etats20171231143124989" source="/home/chopina04/SIG_data/Terminale/Sahara/Sahara_Projet/Monde_Sahara_Etats.shp" name="Monde_Sahara_Etats">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Monde20171231142924538" source="/home/chopina04/SIG_data/Terminale/Sahara/Monde.shp" name="Monde">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Monde20171231142924538" source="/home/chopina04/SIG_data/Terminale/Sahara/Sahara_Projet/Monde.shp" name="Monde">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -34,10 +34,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-6.34409644796190264</xmin>
-      <ymin>9.80544436955543119</ymin>
-      <xmax>44.54940355203808622</xmax>
-      <ymax>47.88684436955546175</ymax>
+      <xmin>-18.49524827005000205</xmin>
+      <ymin>6.68849662494997332</ymin>
+      <xmax>39.97154183405000083</xmax>
+      <ymax>38.29650160104998236</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -55,30 +55,35 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Geolocalisation_Saharatown_Afrique_de_l_Ouest_OCDE_201020171231111125445"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Geolocalisation_Saharatown_Afrique_de_l_Ouest_OCDE_201020171231111425087"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SAHARA_ROUTES_200720171227173651052"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="Monde_Sahara_Etats20171231143124989"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Base_OCD_complète20171231140009681"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MissingMigrantsProject20171231143953439"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Base_OCD_complète20171231141127468"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Urbanisation_OCDE_Sahara_Sahel_Ouest_de_l_Afrique20171231141458272"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="Monde20171231142924538"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="Monde20171231111243332"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Afrique_Europe_Proche_Moyen_Orient_MissingMigrantsProject20171231144438447"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MondeWGS8420171231111607853"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Geolocalisation_Saharatown_Afrique_de_l_Ouest_OCDE_201020171231111717926"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Geolocalisation_Saharatown_Afrique_de_l_Ouest_OCDE_201020171231112251018"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Base_OCD_Urbanisation_Afrique_Ouest20171231141206982"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Afrique_Europe_Proche_Moyen_Orient_MissingMigrantsProject20171231144438447"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="Monde_Sahara_Etats20171231143124989"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Routesdef20171231153159763"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Geolocalisation_Saharatown_Afrique_de_l_Ouest_OCDE_201020171231111717926"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Base_OCD_complète20171231141127468"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Sahara_reseau_routier_200720171231153402250"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="SAHARA_ROUTES_200720171227173651052"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MondeWGS8420171231111607853"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="Monde20171231111243332"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Sahara_reseau_routier_200720171231153912573"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MissingMigrantsProject20171231143953439"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Routesdef20171231153237732"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="Monde20171231142924538"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Geolocalisation_Saharatown_Afrique_de_l_Ouest_OCDE_201020171231111125445"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Base_OCD_complète20171231140009681"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Geolocalisation_Saharatown_Afrique_de_l_Ouest_OCDE_201020171231112251018"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Geolocalisation_Saharatown_Afrique_de_l_Ouest_OCDE_201020171231111425087"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Routes120171231151830880"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>SAHARA_ROUTES_200720171227173651052</item>
       <item>Urbanisation_OCDE_Sahara_Sahel_Ouest_de_l_Afrique20171231141458272</item>
       <item>Monde20171231142924538</item>
       <item>Monde_Sahara_Etats20171231143124989</item>
       <item>Afrique_Europe_Proche_Moyen_Orient_MissingMigrantsProject20171231144438447</item>
+      <item>Sahara_reseau_routier_200720171231153912573</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -97,9 +102,9 @@
       </legendlayer>
     </legendgroup>
     <legendgroup open="false" checked="Qt::Checked" name="Réseau routier en 2007">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="SAHARA_ROUTES_2007" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Sahara_reseau_routier_2007" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="SAHARA_ROUTES_200720171227173651052" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Sahara_reseau_routier_200720171231153912573" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -526,6 +531,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -551,7 +557,7 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="Web ID" index="0" name=""/>
         <alias field="REG" index="1" name=""/>
@@ -602,10 +608,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -895,6 +901,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -920,7 +927,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="CNTR_ID" index="0" name=""/>
         <alias field="SHAPE_AREA" index="1" name=""/>
@@ -931,7 +938,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="3342352">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="CNTR_ID"/>
           <column width="-1" hidden="0" type="field" name="SHAPE_AREA"/>
@@ -941,10 +948,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -978,6 +985,12 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "NAME_FREN", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-17.10318183900000122</xmin>
+        <ymin>7.44106817199997295</ymin>
+        <xmax>38.57947540300000355</xmax>
+        <ymax>37.54393005399998628</ymax>
+      </extent>
       <id>Monde_Sahara_Etats20171231143124989</id>
       <datasource>./Monde_Sahara_Etats.shp</datasource>
       <keywordList>
@@ -1213,6 +1226,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1238,7 +1252,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="CNTR_ID" index="0" name=""/>
         <alias field="SHAPE_AREA" index="1" name=""/>
@@ -1249,7 +1263,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-914607872">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="CNTR_ID"/>
           <column width="-1" hidden="0" type="field" name="SHAPE_AREA"/>
@@ -1259,10 +1273,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -1296,12 +1310,12 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>SAHARA_ROUTES_200720171227173651052</id>
-      <datasource>./SAHARA_ROUTES_2007.shp</datasource>
+      <id>Sahara_reseau_routier_200720171231153912573</id>
+      <datasource>./Sahara_reseau_routier_2007.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>SAHARA_ROUTES_2007</layername>
+      <layername>Sahara_reseau_routier_2007</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1338,28 +1352,27 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr="RTT_DESCRI" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
-        <categories>
-          <category render="true" symbol="0" value="Primary Route" label="Primary Route"/>
-          <category render="true" symbol="1" value="Secondary Route" label="Secondary Route"/>
-          <category render="true" symbol="2" value="Unknown" label="Unknown"/>
-        </categories>
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{33731915-b7d5-4984-8187-3ebf9f7e2b74}">
+          <rule filter="RTT_DESCRI = 'Primary Route'" key="{16b61856-6162-43c2-971b-6359f4490046}" symbol="0" label="Route principale"/>
+          <rule filter="RTT_DESCRI = 'Secondary Route'" key="{39f2042d-6ca1-46b0-bed5-92977adf95f3}" symbol="1" label="Route secondaire"/>
+        </rules>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="line" name="0">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
+              <prop k="customdash" v="0"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
+              <prop k="customdash_unit" v="Pixel"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="127,39,4,255"/>
+              <prop k="line_color" v="214,122,64,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="Pixel"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit" v="Pixel"/>
               <prop k="use_custom_dash" v="0"/>
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
@@ -1367,72 +1380,23 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="line" name="1">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
+              <prop k="customdash" v="0"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
+              <prop k="customdash_unit" v="Pixel"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="253,146,67,255"/>
+              <prop k="line_color" v="253,191,111,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="Pixel"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="2">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,245,235,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit" v="Pixel"/>
               <prop k="use_custom_dash" v="0"/>
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
         </symbols>
-        <source-symbol>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="42,231,49,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-          </symbol>
-        </source-symbol>
-        <colorramp type="gradient" name="[source]">
-          <prop k="color1" v="255,245,235,255"/>
-          <prop k="color2" v="127,39,4,255"/>
-          <prop k="discrete" v="0"/>
-          <prop k="stops" v="0.13;254,230,206,255:0.26;253,208,162,255:0.39;253,174,107,255:0.52;253,141,60,255:0.65;241,105,19,255:0.78;217,72,1,255:0.9;166,54,3,255"/>
-        </colorramp>
-        <invertedcolorramp value="1"/>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -1580,7 +1544,7 @@ def my_form_open(dialog, layer, feature):
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>40</layerTransparency>
+      <layerTransparency>0</layerTransparency>
       <displayfield>MED_DESCRI</displayfield>
       <label>0</label>
       <labelattributes>
@@ -1606,7 +1570,6 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1957,6 +1920,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1982,7 +1946,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="NOM AGGL" index="0" name=""/>
         <alias field="NOM_AGGL2" index="1" name=""/>
@@ -2017,10 +1981,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -2086,8 +2050,8 @@ def my_form_open(dialog, layer, feature):
       <DegreeFormat type="QString">MU</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
@@ -2113,11 +2077,11 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>SAHARA_ROUTES_200720171227173651052</value>
-        <value>Urbanisation_OCDE_Sahara_Sahel_Ouest_de_l_Afrique20171231141458272</value>
+        <value>Afrique_Europe_Proche_Moyen_Orient_MissingMigrantsProject20171231144438447</value>
         <value>Monde20171231142924538</value>
         <value>Monde_Sahara_Etats20171231143124989</value>
-        <value>Afrique_Europe_Proche_Moyen_Orient_MissingMigrantsProject20171231144438447</value>
+        <value>Urbanisation_OCDE_Sahara_Sahel_Ouest_de_l_Afrique20171231141458272</value>
+        <value>Sahara_reseau_routier_200720171231153912573</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
